@@ -27,3 +27,8 @@ public:
         return (int) stk.size();
     }
 };
+
+/*
+    Time: O(n)
+    Space: O(n)
+*/
