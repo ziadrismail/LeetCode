@@ -32,6 +32,7 @@ private:
         else
             steps[x] = 1 + get_power(x * 3 + 1);
         
+        // Return the value stored in the hash, this ensures we won't double calculate
         return steps[x];
     }    
 };
